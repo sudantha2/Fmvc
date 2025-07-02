@@ -1,0 +1,27 @@
+# Telegram Bot Framework
+python-telegram-bot==20.7
+pyrogram==2.0.106
+
+# Audio streaming
+py-tgcalls==0.9.7
+pytgcalls==3.0.0.dev24
+
+# Database
+pymongo==4.6.1
+
+# Audio processing
+ffmpeg-python==0.2.0
+
+# Async support
+asyncio
+aiohttp==3.9.1
+
+# Web server for keep alive
+flask==3.0.0
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Logging
+colorlog==6.8.
