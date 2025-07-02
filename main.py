@@ -8,8 +8,8 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pytgcalls import PyTgCalls
-from pytgcalls.types import AudioPiped as AudioStream
-from pytgcalls.types.stream import Stream
+from pytgcalls.types import Update
+from pytgcalls.types.input_stream import AudioPiped, VideoPiped
 from pymongo import MongoClient
 import re
 from keep_alive import keep_alive
